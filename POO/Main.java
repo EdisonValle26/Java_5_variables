@@ -10,6 +10,9 @@ public class Main {
         miCoche.frenar(20);
 
         // Usar los métodos del objeto Persona
+        miPersona.setNombre("Andres");
+        miPersona.setEdad(25);
+        miPersona.setAltura(1.78);
         miPersona.mostrarInfo();
     }
 }
